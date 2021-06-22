@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(0, 217, 255);
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.title{
+    font-size: 20pt;
+    
+}
+
+section{
+    overflow: hidden;
+    padding: 20px;
+    background-image: url(../imagens/people.jpg);
+    background-size: cover;
+}
+
+#cotainerForm{
+    color: white;
+    max-width: 360px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float:right;
+    margin: 15px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 16px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+input[type=submit]{
+    background-color: rgb(0, 217, 255);
+    
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    background-image: url(../imagens/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+footer{
+    text-align: center;
+    background-color: #202121;
+}
+
+#picture{
+    width: 160px;
+}
+
+.description{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description h3, .description p{
+    margin-bottom: 10px;
+}
+
+.description h3{
+    font-size: 23px;
+}
+
+@media screen and (max-width: 600px){
+    #cotainerForm{
+        float: none;
+        margin: auto;
+    }
+
+    .description{
+        display: block;
+        margin: auto;
+        max-width: 60%;
+        
+    }
+    
+    #picture{
+        width: 180px;
+        margin-top: 10px;
+    }
+
+}
